@@ -1,0 +1,15 @@
+# Directories
+.next/
+out/
+node_modules/
+
+# Files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# misc
+.DS_Store
+.vscode/
+.nextra-cache/
