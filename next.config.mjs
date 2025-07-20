@@ -10,4 +10,5 @@ export default withNextra({
   // ... Add regular Next.js options here
   output: 'export',
   distDir: 'docs',
+  basePath: '/nu-vy-zh-filolohy',
 })
