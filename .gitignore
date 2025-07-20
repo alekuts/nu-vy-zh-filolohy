@@ -1,6 +1,6 @@
 # Directories
 .next/
-# out/
+out/
 node_modules/
 
 # Files
