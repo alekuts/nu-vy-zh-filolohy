@@ -1,6 +1,8 @@
-import nextra from 'nextra'
+import withNextra from 'nextra' 
+import theme from 'nextra-theme-docs'
 
-export default nextra({
-  theme: 'nextra-theme-docs'
+export default withNextra({
+  theme,
+  themeConfig: './docs.config.js'
 })
 
