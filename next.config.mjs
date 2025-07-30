@@ -2,6 +2,8 @@ import nextra from 'nextra'
  
 // Set up Nextra with its configuration
 const withNextra = nextra({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.js', // вказуємо шлях до конфігу
   // ... Add Nextra-specific options here
 })
  
