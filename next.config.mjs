@@ -2,6 +2,6 @@ import nextra from 'nextra'
 
 
 
-export default withNextra({
+export default nextra({
   // тут ключі theme, themeConfig — не потрібні!
 })
