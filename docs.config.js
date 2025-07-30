@@ -1,9 +1,9 @@
 export default {
   feedback: {
-    content: null // або false
+    content: null
   },
   editLink: {
-    content: null // або false
+    content: null
   }
 }
 
