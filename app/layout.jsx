@@ -1,4 +1,3 @@
-import HideButtons from '../components/HideButtons'
 import '../styles/globals.css'
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
@@ -58,7 +57,6 @@ export default async function RootLayout({ children }) {
           //footer={footer}
           // ... Your additional layout options
         >
-      {hideButtonsStyle}
           {children}
         </Layout>
 
