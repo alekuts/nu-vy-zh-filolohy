@@ -1,3 +1,4 @@
+import HideButtons from '../components/HideButtons'
 import '../styles/globals.css'
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
@@ -29,16 +30,6 @@ logo={
 
 
 const footer = <Footer>А?</Footer>
-
-  const hideButtonsStyle = (
-  <style jsx global>{`
-    .nextra-edit-page-button,
-    .nextra-feedback-button {
-      display: none !important;
-    }
-  `}</style>
-);
-
 
 export default async function RootLayout({ children }) {
   
