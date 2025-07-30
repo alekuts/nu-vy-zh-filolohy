@@ -61,7 +61,6 @@ export default async function RootLayout({ children }) {
         >
           {children}
         </Layout>
-   // {hideButtonsStyle}
       </body>
     </html>
   )
