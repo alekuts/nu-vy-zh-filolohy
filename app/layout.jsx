@@ -30,6 +30,14 @@ logo={
 
 const footer = <Footer>А?</Footer>
 
+  const hideButtonsStyle = (
+  <style jsx global>{`
+    .nextra-edit-page-button,
+    .nextra-feedback-button {
+      display: none !important;
+    }
+  `}</style>
+);
 
 
 export default async function RootLayout({ children }) {
@@ -59,8 +67,10 @@ export default async function RootLayout({ children }) {
           //footer={footer}
           // ... Your additional layout options
         >
+      {hideButtonsStyle}
           {children}
         </Layout>
+
       </body>
     </html>
   )
