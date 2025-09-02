@@ -14,6 +14,9 @@ export default {
   phonetics: {
     title: "Phonetics" 
   },
+  vdp: {
+    title: "Introduction to Translation Studies"
+  },
   literature: {
     title: "Literature"
   },
