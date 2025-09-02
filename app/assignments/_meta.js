@@ -16,5 +16,8 @@ export default {
   },
   literature: {
     title: "Literature"
+  },
+  oiot: {
+    title: "OIOT"
   }
 }
