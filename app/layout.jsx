@@ -56,6 +56,7 @@ export default async function RootLayout({ children }) {
       <body>
         <Layout
           search={false}
+  
           //banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
