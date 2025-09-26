@@ -33,7 +33,7 @@ logo={
 )
 
 
-const footer = <Footer>Порада: виконуй німецьку першою</Footer>
+const footer = <Footer>А?</Footer>
 
 export default async function RootLayout({ children }) {
   
@@ -60,7 +60,7 @@ export default async function RootLayout({ children }) {
           //banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          footer={footer}
+          //footer={footer}
           // ... Your additional layout options
         >
           {children}
