@@ -9,12 +9,12 @@ export const metadata = {
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 }
  
-const banner = <Banner dismissible={false}>⭐ Головне на сьогодні:{' '}
-  <a href="https://krnu.org/mod/url/view.php?id=49941"
+const banner = <Banner dismissible={false}>🔥 Головні завдання:{' '}
+  <a href="./assignments/info"
     taget="_blank"
     rel="noopener noreferrer"
     style={{ textDecoration: 'underline' }}
-  >курсова з літератури</a> ⭐</Banner>
+  >тут</a> 🔥</Banner>
 const navbar = (
   <Navbar
 
@@ -57,7 +57,7 @@ export default async function RootLayout({ children }) {
         <Layout
           search={false}
   
-          //banner={banner}
+          banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
           //footer={footer}
