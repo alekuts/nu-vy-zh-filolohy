@@ -10,7 +10,7 @@ export const metadata = {
 }
  
 const banner = <Banner dismissible={false}>🔥 Головні завдання:{' '}
-  <a href="./assignments/info"
+  <a href="./info"
     taget="_blank"
     rel="noopener noreferrer"
     style={{ textDecoration: 'underline' }}
