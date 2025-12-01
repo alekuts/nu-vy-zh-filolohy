@@ -1,26 +1,23 @@
 export default {
   info: {
-    title: "Info"
+    title: "Info",
   },
   arsp: {
     title: "ARSP",
   },
   engr: {
-    title: "English Grammar"
+    title: "English Grammar",
   },
   german: {
-    title: "German"
+    title: "German",
   },
   phonetics: {
-    title: "Phonetics" 
+    title: "Phonetics",
   },
   vdp: {
-    title: "Introduction to Translation Studies"
+    title: "Introduction to Translation Studies",
   },
   literature: {
-    title: "Literature"
+    title: "Literature",
   },
-  oiot: {
-    title: "OIOT"
-  }
-}
+};
