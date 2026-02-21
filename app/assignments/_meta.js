@@ -11,13 +11,19 @@ export default {
   german: {
     title: "German",
   },
-  phonetics: {
-    title: "Phonetics",
+  tp: {
+    title: "Translation Practice",
   },
-  vdp: {
-    title: "Introduction to Translation Studies",
+  ct: {
+    title: "Contrastive Typology",
   },
-  literature: {
-    title: "Literature",
+  philosophy: {
+    title: "Philosophy",
+  },
+  bmt: {
+    title: "BMT",
+  },
+  lrsru: {
+    title: "LRSRU",
   },
 };

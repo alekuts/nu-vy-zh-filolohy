@@ -1,15 +1,14 @@
 export default {
   assignments: {
-    title: "Assignments"
+    title: "Assignments",
   },
   schedule: {
-    title: "Schedule"
+    title: "Schedule",
   },
   courses: {
-    title: "Courses"
+    title: "Courses",
   },
   zoom: {
-    title: "Zoom"
-  }
-}
-
+    title: "Zoom",
+  },
+};
